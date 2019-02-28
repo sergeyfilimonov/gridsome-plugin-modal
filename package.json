@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "gridsome-plugin-gtm",
   "description": "Google Tag Manager plugin for Gridsome",
   "homepage": "https://github.com/sergeyfilimonov/gridsome-plugin-gtm#readme",
