@@ -1,4 +1,4 @@
-import VModal from 'vue-js-modal'
+import VModal from 'vue-js-modal/dist/ssr.index'
 
 export default function (Vue, options, { isServer: disabled, router }) {
   if(process.isClient) {
