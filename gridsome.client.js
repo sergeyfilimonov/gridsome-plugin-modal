@@ -1,11 +1,8 @@
-import VueGtm from 'vue-gtm'
+import VModal from 'vue-js-modal'
 
 export default function (Vue, options, { isServer: disabled, router }) {
   if(process.isClient) {
-    const { default: VueGtm } = require('vue-gtm')
-    Vue.use(VueGtm, {
-      vueRouter: router,
-      ...options
-    })
+    const { default: VModal } = require('vue-js-modal')
+    Vue.use(VModal)
   }
 }

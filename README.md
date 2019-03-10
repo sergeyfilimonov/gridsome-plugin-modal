@@ -1,11 +1,11 @@
-# Google Tag Manager for Gridsome
+# Modal windows for Gridsome
 
-See [Vue Google Tag Manager](https://www.npmjs.com/package/vue-gtm) for other options.
+To use [Vue.js Modal](https://www.npmjs.com/package/vue-js-modal) package with Gridsome you should use this plugin in order Gridsome could render your project properly.
 
 ## Install
 
-- `npm install gridsome-plugin-gtm --save`
-- `yarn add gridsome-plugin-gtm`
+- `npm install gridsome-plugin-modal --save`
+- `yarn add gridsome-plugin-modal`
 
 ## Usage
 
@@ -13,12 +13,7 @@ See [Vue Google Tag Manager](https://www.npmjs.com/package/vue-gtm) for other op
 module.exports = {
   plugins: [
     {
-      use: 'gridsome-plugin-gtm',
-      options: {
-        id: 'GTM-XXXXXXX',
-        enabled: true,
-        debug: true
-      }
+      use: 'gridsome-plugin-modal'
     }
   ]
 }

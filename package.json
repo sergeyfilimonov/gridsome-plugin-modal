@@ -1,7 +1,7 @@
 {
-  "version": "0.1.1",
-  "name": "gridsome-plugin-gtm",
-  "description": "Google Tag Manager plugin for Gridsome",
+  "version": "0.1.0",
+  "name": "gridsome-plugin-modal",
+  "description": "Modal windows plugin for Gridsome",
   "homepage": "https://github.com/sergeyfilimonov/gridsome-plugin-gtm#readme",
   "repository": "https://github.com/sergeyfilimonov/gridsome-plugin-gtm",
   "main": "gridsome.client.js",
@@ -13,14 +13,13 @@
   "keywords": [
     "gridsome",
     "gridsome-plugin",
-    "gtm",
-    "google-tag-manager"
+    "modal"
   ],
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "vue-gtm": "^2.0.0"
+    "vue-js-modal": "^1.3.28"
   },
   "engines": {
     "node": ">=8"
